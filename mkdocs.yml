@@ -107,3 +107,32 @@ nav:
       - Enums: api/enums.md
   - Contributing: contributing.md
   - Changelog: changelog.md
+
+extra:
+  homepage: https://dhuruvah.in/
+  social:
+  - icon: fontawesome/brands/github-alt
+    link: https://github.com/dhuruvah-apps
+  - icon: fontawesome/brands/twitter
+    link: https://twitter.com/dhuruvah
+  - icon: fontawesome/brands/linkedin
+    link: https://www.linkedin.com/in/dhuruvah
+  - icon: fontawesome/brands/dev
+    link: https://dev.to/dhuruvah
+  - icon: fontawesome/brands/medium
+    link: https://medium.com/@dhuruvah
+  - icon: fontawesome/solid/globe
+    link: https://dhuruvah.in
+  - icon: fontawesome/solid/envelope
+    link: mailto:dhuruvah@gmail.com
+
+extra_css:
+  - css/termynal.css
+  - css/custom.css
+
+extra_javascript:
+  - js/termynal.js
+  - js/custom.js
+
+hooks:
+  - scripts/mkdocs_hooks.py
